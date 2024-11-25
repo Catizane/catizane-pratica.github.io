@@ -1,41 +1,5 @@
 # Plano de Testes - Sauce Demo e Restful-Booker
 
-## Índice
-
-1. [Plano de Testes](#iplano-de-testes)  
-2. [Criterios de Aceitacao](#criterio-de-aceitacao)  
-3. [Ferramentas de Testes](#ferramentas-de-testes)  
-4. [Estratégias de Testes](#estratégias-de-testes)  
-5. [Cronograma](#cronograma)  
-6. [Métricas de Qualidade](#métricas-de-qualidade)  
-7. [Cenários de Testes UI Testing](#cenários-de-testes-ui-testing)  
-      - 7.1.1 [Login com diferentes tipos de usuários ](#711-login-com-diferentes-tipos-de-usuarios )  
-     - 7.1.2 [Ordenação e filtragem de produtos](#712-ordenacao-e-filtragem-de-produtos)  
-       
-
-       
-     - 7.1.3 [Fluxo completo de compra](#713-fluxo-completo-de-compra)  
-       - 7.1.3.1 [Testes Funcionais](#7131-testes-funcionais)  
-       - 7.1.3.2 [Testes Não Funcionais](#7132-testes-nao-funcionais)  
-     - 7.1.4 [Remoção de itens do carrinho](#714-remocao-de-itens-do-carrinho)  
-       - 7.1.4.1 [Testes Funcionais](#7141-testes-funcionais)  
-       - 7.1.4.2 [Testes Não Funcionais](#7142-testes-nao-funcionais)  
-     - 7.1.5 [Navegação entre páginas](#715-navegacao-entre-paginas)  
-       - 7.1.5.1 [Testes Funcionais](#7151-testes-funcionais)  
-       - 7.1.5.2 [Testes Não Funcionais](#7152-testes-nao-funcionais)  
-     - 7.1.6 [Logout](#716-logout)  
-       - 7.1.6.1 [Testes Funcionais](#7161-testes-funcionais)  
-       - 7.1.6.2 [Testes Não Funcionais](#7162-testes-nao-funcionais)  
-   - 7.2 [API Testing (Restful-Booker)](#72-api-testing-restful-booker)  
-     - 7.2.1 [Autenticação](#721-autenticacao)  
-       - 7.2.1.1 [Testes Funcionais](#7211-testes-funcionais)  
-       - 7.2.1.2 [Testes Não Funcionais](#7212-testes-nao-funcionais)  
-     - 7.2.2 [Gestão de reservas](#722-gestao-de-reservas)  
-       - 7.2.2.1 [Testes Funcionais](#7221-testes-funcionais)  
-       - 7.2.2.2 [Testes Não Funcionais](#7222-testes-nao-funcionais)  
-     - 7.2.3 [Filtros e buscas](#723-filtros-e-buscas)  
-       - 7.2.3.1 [Testes Funcionais](#7231-testes-funcionais)  
-       - 7.2.3.2 [Testes Não Funcionais](#7232-testes-nao-funcionais)  
 
 ---
 
@@ -110,6 +74,8 @@ PLTS_README.md_SPRINT0_plataforma_Sauce_ Demo`
 
 ---
 
+# Inicio Sauce Demo 
+
 ## 7. Cenários de Testes UI Testing 
 
 ### 7.1.1 Login com diferentes tipos de usuários 
@@ -149,7 +115,7 @@ PLTS_README.md_SPRINT0_plataforma_Sauce_ Demo`
 
 | Resultado  BUG-CT-LG-001                                           |Imagem 01                                                                                                      
 |------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Visualizar imagem                                    |      <div align="center">  <img src="https://github.com/Catizane/catizane-pratica.github.io/blob/main/docs/resultados/ui/login/BUG-CT-LG-001.png " width="102" height="80" alt="login"  />  </a></div>   
+| Visualizar - Clique na imagem   ao lado              |      <div align="center">  <img src="https://github.com/Catizane/catizane-pratica.github.io/blob/main/docs/resultados/ui/login/BUG-CT-LG-001.png " width="102" height="80" alt="login"  />  </a></div>   
 
 ##  Sugestões de Melhorias
 
@@ -159,6 +125,7 @@ PLTS_README.md_SPRINT0_plataforma_Sauce_ Demo`
    - **Erros detalhados:** Exibir mensagens de erro informativas. Na tela login ao clicar em "login" sem preencher nada.. apresenta apenas a mensagem pedindo o usuário e não existe a mensagem para senha.
    - 
 
+---
   ## Cenarios de Login 02
   
 | ID          | Descrição                                         | Passos para Reproduzir                                                                                                                                      | Insira massa de dados                            |
@@ -178,9 +145,9 @@ PLTS_README.md_SPRINT0_plataforma_Sauce_ Demo`
 | BUG-CT-LG-004    | usabilidade                               | Moderado         | Campos Usuario e Senha não são limpos apos a mensagem. |
 | BUG-CT-LG-004    | Mensagem dde erro desconfigurada          | Leve             | A mensagem não expandi na tela.        |
 
-| Resultado  BUG-CT-LG-001                                           |Imagem 01                                                                                                      
+| Resultado  BUG-CT-LG-001                                |Imagem 01                                                                                                      
 |------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Visualizar imagem                                    |      <div align="center">  <img src="https://github.com/Catizane/catizane-pratica.github.io/blob/main/docs/resultados/ui/login/BUG-CT-LG-004.png " width="102" height="80" alt="login"  />  </a></div>   
+|Visualizar - Clique na imagem   ao lado                  |      <div align="center">  <img src="https://github.com/Catizane/catizane-pratica.github.io/blob/main/docs/resultados/ui/login/BUG-CT-LG-004.png " width="102" height="80" alt="login"  />  </a></div>   
 
 ##  Sugestões de Melhorias
 
@@ -191,6 +158,8 @@ PLTS_README.md_SPRINT0_plataforma_Sauce_ Demo`
     - **Acessibilidade/ usabilidade:** Permitir navegação correta do teclado (Tab/Enter) no campos login/senha.                                                                                                                                                                                  
     - **Testes Não Funcionais:**  Tempo de carregamento inferior a 2 segundo -ok                                                                                                                                                                            
                                                        
+
+---
 
 ### 7.1.2 Ordenação e filtragem de produtos
   
@@ -215,7 +184,7 @@ PLTS_README.md_SPRINT0_plataforma_Sauce_ Demo`
 
 | Resultado Esperado                                          |Imagem 01                                                                                                |      Imagem 02          
 |-------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|
-| 5. Então tenho a visualizaçao da filtragem de produtos      |      <div align="center">  <img src="https://github.com/Catizane/catizane-pratica.github.io/blob/main/docs/resultados/ui/login/CT-FL-001_filtro_A " width="102" height="80" alt="login"  />  </a></div>   -|  <div align="center">  <img src="https://github.com/Catizane/catizane-pratica.github.io/blob/main/docs/resultados/ui/login/CT-LG-001_login_B.png  " width="102" height="80" alt="login"  />  </a></div>  
+| 5. Então tenho a visualizaçao da filtragem de produtos      |      <div align="center">  <img src="https://github.com/Catizane/catizane-pratica.github.io/blob/main/docs/resultados/ui/login/CT-FL-001_filtro_A.png" width="102" height="80" alt="login"  />  </a></div>   -|  <div align="center">  <img src="https://github.com/Catizane/catizane-pratica.github.io/blob/main/docs/resultados/ui/login/CT-LG-001_login_B.png  " width="102" height="80" alt="login"  />  </a></div>  
 
                                                                
  ## Lista de Bugs Encontrados
@@ -228,7 +197,7 @@ PLTS_README.md_SPRINT0_plataforma_Sauce_ Demo`
 
 | Resultado  BUG-CT-FL-001                                           |Imagem 01                                                                                                      
 |------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Visualizar imagem                                    |      <div align="center">  <img src="https://github.com/Catizane/catizane-pratica.github.io/blob/main/docs/resultados/ui/login/BUG-CT-FL-001.png " width="102" height="80" alt="login"  />  </a></div>   
+|Visualizar - Clique na imagem   ao lado               |      <div align="center">  <img src="https://github.com/Catizane/catizane-pratica.github.io/blob/main/docs/resultados/ui/login/BUG-CT-FL-001.png " width="102" height="80" alt="login"  />  </a></div>   
 
 ##  Sugestões de Melhorias
 
@@ -238,6 +207,7 @@ PLTS_README.md_SPRINT0_plataforma_Sauce_ Demo`
                                                                 
 
 
+---
   ### 7.1.3 Fluxo completo de compra (do carrinho até finalização)
   
 
@@ -277,7 +247,7 @@ PLTS_README.md_SPRINT0_plataforma_Sauce_ Demo`
 
 | Resultado  BUG-CT-FL-005                                           |Imagem 01                                                                                                      
 |------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Visualizar imagem                                    |      <div align="center">  <img src="https://github.com/Catizane/catizane-pratica.github.io/blob/main/docs/resultados/ui/login/BUG-CT-FL-005.png " width="102" height="80" alt="login"  />  </a></div>   
+| Visualizar - Clique na imagem   ao lado              |      <div align="center">  <img src="https://github.com/Catizane/catizane-pratica.github.io/blob/main/docs/resultados/ui/login/BUG-CT-FL-005.png " width="102" height="80" alt="login"  />  </a></div>   
 
 ##  Sugestões de Melhorias
 
@@ -314,7 +284,7 @@ PLTS_README.md_SPRINT0_plataforma_Sauce_ Demo`
 
 | Resultado Esperado                                          |Imagem 01                                                                                                |      Imagem 02          
 |-------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|
-| 5. Então removo o item do carrinho     |      <div align="center">  <img src="https://github.com/Catizane/catizane-pratica.github.io/blob/main/docs/resultados/ui/login/CT-FL-001_fluxoRemocaoITensCarrinho_A " width="102" height="80" alt="login"  />  </a></div>   -| Nao Aplica  
+| 5. Então removo o item do carrinho     |      <div align="center">  <img src="https://github.com/Catizane/catizane-pratica.github.io/blob/main/docs/resultados/ui/login/CT-FL-001_fluxoRemocaoITensCarrinho_A.png " width="102" height="80" alt="login"  />  </a></div>   -| Nao Aplica  
 
 
 
@@ -329,7 +299,7 @@ PLTS_README.md_SPRINT0_plataforma_Sauce_ Demo`
 
 | Resultado  BUG-CT-FL-001                                           |Imagem 01                                                                                                      
 |------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Visualizar imagem                                    |      <div align="center">  <img src="https://github.com/Catizane/catizane-pratica.github.io/blob/main/docs/resultados/ui/login/BUG-CT-FL-006.png " width="102" height="80" alt="login"  />  </a></div>   
+| Visualizar - Clique na imagem   ao lado              |      <div align="center">  <img src="https://github.com/Catizane/catizane-pratica.github.io/blob/main/docs/resultados/ui/login/BUG-CT-FL-006.png " width="102" height="80" alt="login"  />  </a></div>   
 
 ##  Sugestões de Melhorias
 
@@ -371,7 +341,7 @@ PLTS_README.md_SPRINT0_plataforma_Sauce_ Demo`
 
 | Resultado Esperado                                          |Imagem 01                                                                                                |      Imagem 02          
 |-------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|
-| 5. Então tenho acesso a página inicial.                     |      <div align="center">  <img src="https://github.com/Catizane/catizane-pratica.github.io/blob/main/docs/resultados/ui/login/CT-LG-001_logout_A " width="102" height="80" alt="login"  />  </a></div>   -| Nao Aplica  
+| 5. Então tenho acesso a página inicial.                     |      <div align="center">  <img src="https://github.com/Catizane/catizane-pratica.github.io/blob/main/docs/resultados/ui/login/CT-LG-001_logout_A.png" width="102" height="80" alt="login"  />  </a></div>   -| Nao Aplica  
 
                                                                
  ## Lista de Bugs Encontrados
@@ -384,7 +354,7 @@ PLTS_README.md_SPRINT0_plataforma_Sauce_ Demo`
 
 | Resultado  BUG-CT-LG-001                                           |Imagem 01                                                                                                      
 |------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Visualizar imagem                                    |      <div align="center">  <img src="https://github.com/Catizane/catizane-pratica.github.io/blob/main/docs/resultados/ui/login/BUG-CT-LG-001.png " width="102" height="80" alt="login"  />  </a></div>   
+| Visualizar - Clique na imagem   ao lado              |      <div align="center">  <img src="https://github.com/Catizane/catizane-pratica.github.io/blob/main/docs/resultados/ui/login/BUG-CT-LG-001.png " width="102" height="80" alt="login"  />  </a></div>   
 
 ##  Sugestões de Melhorias
 
@@ -397,115 +367,224 @@ PLTS_README.md_SPRINT0_plataforma_Sauce_ Demo`
 
 ---
 
-### 7.2 API Testing (Restful-Booker)
+# Inicio API Testing (Restful-Booker)
 
-#### 7.2.1 Autenticação
+##### 7.2.1.1 Credenciais Validas e Invalidas
 
-##### 7.2.1.1 Testes Funcionais
-| ID      | Descrição                                   | Passos para Reproduzir                                                                                 | Resultado Esperado                                    |
-|---------|-------------------------------------------|--------------------------------------------------------------------------------------------------------|-----------------------------------------------------|
-| AU-001  | Gerar token com credenciais válidas       | 1. Realizar uma requisição POST no endpoint `/auth`<br>2. Enviar credenciais válidas no corpo da requisição | Token de autenticação gerado com sucesso, retornando código 200.          |
-| AU-002  | Tentar gerar token com credenciais inválidas | 1. Realizar uma requisição POST no endpoint `/auth`<br>2. Enviar credenciais inválidas no corpo da requisição | Resposta com código 401 e mensagem de erro indicando "Credenciais inválidas".         |
+**1. HISTORIA DE USUARIO:**
 
-##### 7.2.1.2 Testes Não Funcionais
-| ID         | Descrição                                      | Passos para Reproduzir                                                                                 | Resultado Esperado                                    |
-|------------|----------------------------------------------|--------------------------------------------------------------------------------------------------------|-----------------------------------------------------|
-| AU-NF-001  | Verificar tempo de resposta na autenticação   | 1. Realizar uma requisição POST no endpoint `/auth` com credenciais válidas<br>2. Medir o tempo de resposta | Tempo de resposta inferior a 2 segundos.           |
-| AU-NF-002  | Testar autenticação com múltiplas requisições simultâneas | 1. Enviar 10 requisições simultâneas ao endpoint `/auth` com credenciais válidas                      | Todas as requisições retornam tokens válidos, sem falhas. |
+- Eu como usuario
+- Quero Gerar token com credenciais válidas
+- Para que seja possivel autenticar
+
+
+ **1.1 CRITERIOS DE ACEITACAO:**
+
+ - Ter postman instalado
+ - Le a documentação do restful-booker.herokuapp.com/apido
+ 
+ 
+  ## CENARIO 01 - TOKEN VALIDO
+  
+| ID          | Descrição                                         | Passos para Reproduzir                                                                                                                    | Insira massa de dados                                              |
+|-------------|---------------------------------------------------|---------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|
+|CT-API-0001  | Token valido                                      |1. Na tela  requisição POST<br>2. Dado que tenho os dados (Informacoes)<br>3. Quando insiro os dados <br>4.  E aciono ação "Send"         |            Dados usados da documentacao de API
+ 
+| Resultado Esperado                                  |Imagem 01                                                                                                |      Imagem 02          
+|-----------------------------------------------------|---------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|
+| 5. Então tenho a resposta da requisicao.            | <div align="center">  <img src="https://github.com/Catizane/catizane-pratica.github.io/blob/main/docs/resultados/api/CT-API-0001_AutenToken.png " width="102" height="80" alt="login"  />  </a></div>   -| Nao Aplica  
+
+                                                               
+
+---
+## CENARIO 02 - TOKEN INVALIDO
+  
+| ID          | Descrição                                         | Passos para Reproduzir                                                                                                                    | Insira massa de dados                                              |
+|-------------|---------------------------------------------------|---------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|
+|CT-API-0002  | Token valido                                      |1. Na tela  requisição POST<br>2. Dado que tenho os dados (Informacoes)<br>3. Quando insiro os dados <br>4.  E aciono ação "Send"         |            Dados usados da documentacao de API
+ 
+| Resultado Esperado                                  |Imagem 01                                                                                                |      Imagem 02          
+|-----------------------------------------------------|---------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|
+| 5. Então tenho a resposta da requisicao.            | <div align="center">  <img src="https://github.com/Catizane/catizane-pratica.github.io/blob/main/docs/resultados/api/CT-API-0002_AutenToken_Invalida.png " width="102" height="80" alt="login"  />  </a></div>   -| Nao Aplica  
+
+##  Sugestões de Melhorias
+
+ **Detalhe (API): Tempo de carregamento inferior a 2 segundo -ok **
+                                                                                                                                                                                
+---       
+
+##### 7.2.1.2 Check-in e Check-Out
+
+**1. HISTORIA DE USUARIO:**
+
+- Eu como usuario
+- Quero fazer Check-in e Check-Out
+- Para que seja possivel visualizar as informações
+
+
+ **1.1 CRITERIOS DE ACEITACAO:**
+
+ - Ter postman instalado
+ - Le a documentação do restful-booker.herokuapp.com/apido
+ 
+ 
+  ## CENARIO 01 - Check-in e Check-Out
+  
+| ID          | Descrição                                         | Passos para Reproduzir                                                                                                                    | Insira massa de dados                                              |
+|-------------|---------------------------------------------------|---------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|
+|CT-API-0003  |  Check-in e Check-Out                                    |1. Na tela  requisição POST<br>2. Dado que tenho os dados (Informacoes)<br>3. Quando insiro os dados <br>4.  E aciono ação "Send"         |            Dados usados da documentacao de API
+ 
+| Resultado Esperado                                  |Imagem 01                                                                                                |      Imagem 02          
+|-----------------------------------------------------|---------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|
+| 5. Então tenho a resposta da requisicao.            | <div align="center">  <img src="https://github.com/Catizane/catizane-pratica.github.io/blob/main/docs/resultados/api/CT-API-0003_CheckInCheckOut.png " width="102" height="80" alt="login"  />  </a></div>   -| Nao Aplica  
+
+  
+ 
+
+
+##  Sugestões de Melhorias
+
+ **Detalhe (API): Tempo de carregamento inferior a 2 segundo -ok **
+                                                                                                                                                                                
+---       
+
+
+##### 7.2.1.3 Filtrar os ID
+
+**1. HISTORIA DE USUARIO:**
+
+- Eu como usuario
+- Quero fazer filtrar os ID
+- Para que seja possivel visualizar as informações
+
+
+ **1.1 CRITERIOS DE ACEITACAO:**
+
+ - Ter postman instalado
+ - Le a documentação do restful-booker.herokuapp.com/apido
+ 
+ 
+  ## CENARIO 01 - Check-in e Check-Out
+  
+| ID          | Descrição                                         | Passos para Reproduzir                                                                                                                    | Insira massa de dados                                              |
+|-------------|---------------------------------------------------|---------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|
+|CT-API-0003  | filtrar os ID                                     |1. Na tela  requisição POST<br>2. Dado que tenho os dados (Informacoes)<br>3. Quando insiro os dados <br>4.  E aciono ação "Send"         |            Dados usados da documentacao de API
+ 
+| Resultado Esperado                                  |Imagem 01                                                                                                |      Imagem 02          
+|-----------------------------------------------------|---------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|
+| 5. Então tenho a resposta da requisicao.            | <div align="center">  <img src="https://github.com/Catizane/catizane-pratica.github.io/blob/main/docs/resultados/api/CT-API-0003_FiltroTodosID.png " width="102" height="80" alt="login"  />  </a></div>   -| Nao Aplica  
+
+           
+
+##  Sugestões de Melhorias
+
+ **Detalhe (API): Tempo de carregamento inferior a 2 segundo -ok **
+                                                                                                                                                                                
+---       
+
+
+
+##### 7.2.1.4 Criar Reserva
+
+**1. HISTORIA DE USUARIO:**
+
+- Eu como usuario
+- Quero criar reservas
+- Para que seja possivel visualizar as informações
+
+
+ **1.1 CRITERIOS DE ACEITACAO:**
+
+ - Ter postman instalado
+ - Le a documentação do restful-booker.herokuapp.com/apido
+ 
+ 
+  ## CENARIO 01 - Reservas Nomes
+  
+| ID          | Descrição                                         | Passos para Reproduzir                                                                                                                    | Insira massa de dados                                              |
+|-------------|---------------------------------------------------|---------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|
+|CT-API-0006  |  reservas   nomes                                 |1. Na tela  requisição POST<br>2. Dado que tenho os dados (Informacoes)<br>3. Quando insiro os dados <br>4.  E aciono ação "Send"         |            Dados usados da documentacao de API
+ 
+| Resultado Esperado                                  |Imagem 01                                                                                                |      Imagem 02          
+|-----------------------------------------------------|---------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|
+| 5. Então tenho a resposta da requisicao.            | <div align="center">  <img src="https://github.com/Catizane/catizane-pratica.github.io/blob/main/docs/resultados/api/CT-API-0006_CreateReserva.png " width="102" height="80" alt="login"  />  </a></div>   -| Nao Aplica  
+
+           
+##  Sugestões de Melhorias
+
+ **Detalhe (API): Tempo de carregamento inferior a 2 segundo -ok **
+                                                                                                                                                                                
+ 
 
 ---
 
-#### 7.2.2 Gestão de reservas
+##### 7.2.1.6 Update Reserva
 
-##### 7.2.2.1 Testes Funcionais
-| ID      | Descrição                                   | Passos para Reproduzir                                                                                 | Resultado Esperado                                    |
-|---------|-------------------------------------------|--------------------------------------------------------------------------------------------------------|-----------------------------------------------------|
-| GR-001  | Criar uma nova reserva                    | 1. Realizar uma requisição POST no endpoint `/booking`<br>2. Enviar dados válidos no corpo da requisição | Reserva criada com sucesso, retornando ID da reserva e código 200. |
-| GR-002  | Buscar uma reserva específica             | 1. Realizar uma requisição GET no endpoint `/booking/{id}`<br>2. Informar um ID válido na URL           | Detalhes da reserva retornados corretamente, com código 200.        |
-| GR-003  | Listar todas as reservas                  | 1. Realizar uma requisição GET no endpoint `/booking`                                                 | Lista de reservas retornada corretamente, com código 200.          |
-| GR-004  | Atualizar uma reserva existente           | 1. Realizar uma requisição PUT no endpoint `/booking/{id}`<br>2. Enviar novos dados no corpo da requisição | Reserva atualizada com sucesso, retornando código 200.              |
-| GR-005  | Deletar uma reserva existente             | 1. Realizar uma requisição DELETE no endpoint `/booking/{id}`<br>2. Informar um ID válido na URL       | Reserva deletada com sucesso, retornando código 201.                |
-| GR-006  | Buscar reserva inexistente                | 1. Realizar uma requisição GET no endpoint `/booking/{id}`<br>2. Informar um ID inválido na URL         | Resposta com código 404 e mensagem de erro indicando que a reserva não existe. |
+**1. HISTORIA DE USUARIO:**
 
-##### 7.2.2.2 Testes Não Funcionais
-| ID         | Descrição                                       | Passos para Reproduzir                                                                                 | Resultado Esperado                                    |
-|------------|-----------------------------------------------|--------------------------------------------------------------------------------------------------------|-----------------------------------------------------|
-| GR-NF-001  | Verificar tempo de resposta ao criar reservas  | 1. Realizar uma requisição POST no endpoint `/booking` com dados válidos<br>2. Medir o tempo de resposta | Tempo de resposta inferior a 3 segundos.           |
-| GR-NF-002  | Testar comportamento com alta carga de reservas | 1. Criar múltiplas reservas simultaneamente (ex.: 50 requisições)<br>2. Monitorar respostas do servidor | Todas as requisições processadas corretamente, sem quedas de desempenho.      |
+- Eu como usuario
+- Quero fazer upadate reserva
+- Para que seja possivel visualizar as informações
 
----
 
-#### 7.2.3 Filtros e buscas
+ **1.1 CRITERIOS DE ACEITACAO:**
 
-##### 7.2.3.1 Testes Funcionais
-| ID      | Descrição                                   | Passos para Reproduzir                                                                                 | Resultado Esperado                                    |
-|---------|-------------------------------------------|--------------------------------------------------------------------------------------------------------|-----------------------------------------------------|
-| FB-001  | Buscar reservas por nome                  | 1. Realizar uma requisição GET no endpoint `/booking?firstname={nome}`<br>2. Informar um nome válido na query | Reservas correspondentes ao nome retornadas corretamente, com código 200.        |
-| FB-002  | Buscar reservas por data de check-in      | 1. Realizar uma requisição GET no endpoint `/booking?checkin={data}`<br>2. Informar uma data válida na query | Reservas com a data de check-in correspondente retornadas corretamente. |
-| FB-003  | Buscar reservas por data de check-out     | 1. Realizar uma requisição GET no endpoint `/booking?checkout={data}`<br>2. Informar uma data válida na query | Reservas com a data de check-out correspondente retornadas corretamente. |
-| FB-004  | Buscar reservas com múltiplos filtros     | 1. Realizar uma requisição GET no endpoint `/booking` com múltiplos parâmetros (ex.: `firstname` e `checkin`) | Reservas que atendem a todos os filtros retornadas corretamente, com código 200. |
+ - Ter postman instalado
+ - Le a documentação do restful-booker.herokuapp.com/apido
+ 
+ 
+  ## CENARIO 01 - Update Reservas
+  
+| ID          | Descrição                                         | Passos para Reproduzir                                                                                                                    | Insira massa de dados                                              |
+|-------------|---------------------------------------------------|---------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|
+|CT-API-0006  | update reservas                                   |1. Na tela  requisição POST<br>2. Dado que tenho os dados (Informacoes)<br>3. Quando insiro os dados <br>4.  E aciono ação "Send"         |            Dados usados da documentacao de API
+ 
+| Resultado Esperado                                  |Imagem 01                                                                                                |      Imagem 02          
+|-----------------------------------------------------|---------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|
+| 5. Então tenho a resposta da requisicao.            | <div align="center">  <img src="https://github.com/Catizane/catizane-pratica.github.io/blob/main/docs/resultados/api/CT-API-0007_UpadateReserva.png" width="102" height="80" alt="login"  />  </a></div>   -| Nao Aplica  
 
-##### 7.2.3.2 Testes Não Funcionais
-| ID         | Descrição                                       | Passos para Reproduzir                                                                                 | Resultado Esperado                                    |
-|------------|-----------------------------------------------|--------------------------------------------------------------------------------------------------------|-----------------------------------------------------|
-| FB-NF-001  | Verificar tempo de resposta em buscas com filtros | 1. Realizar requisições GET com diferentes combinações de filtros<br>2. Medir o tempo de resposta      | Tempo de resposta inferior a 2 segundos.           |
-| FB-NF-002  | Testar comportamento ao aplicar filtros inválidos | 1. Realizar requisições GET com parâmetros inválidos (ex.: `checkin=invalid-date`)<br>2. Verificar respostas | Resposta com código 400 e mensagem de erro clara.   |
-| FB-NF-003  | Testar busca em grandes volumes de dados        | 1. Aplicar filtros em uma base de dados com mais de 10.000 registros<br>2. Monitorar o desempenho      | Resultados retornados sem impacto significativo no desempenho. |
+           
+##  Sugestões de Melhorias
 
+ **Detalhe (API): Tempo de carregamento inferior a 2 segundo -ok **
+                                                                                                                                                                                
+   
 
 ---
 
-## 8. Resultados dos Testes
 
-| Cenário  | Resultado | Observações          |
-|----------|-----------|----------------------|
-| LG-001   | Aprovado  | Login com credenciais válidas funcionando como esperado. |
-| LG-002   | Aprovado  | Mensagem de erro clara para login inválido. |
-| LG-003   | Aprovado  | Mensagem de erro exibida corretamente para campos vazios. |
-| OR-001   | Aprovado  | Ordenação por preço (menor para maior) funcionando corretamente. |
-| OR-002   | Aprovado  | Ordenação por preço (maior para menor) funcional. |
-| OR-003   | Aprovado  | Filtro por categoria retorna resultados consistentes. |
-| FC-001   | Aprovado  | Produto adicionado ao carrinho com sucesso. |
-| FC-002   | Aprovado  | Fluxo de compra completo funcionando, sem erros. |
-| RC-001   | Aprovado  | Remoção de produto individual do carrinho realizada com sucesso. |
-| NP-001   | Aprovado  | Navegação entre páginas principais fluida e funcional. |
-| LO-001   | Aprovado  | Logout executado com sucesso, redirecionando corretamente para a página de login. |
+##### 7.2.1.8 Delete Reserva
 
----
+**1. HISTORIA DE USUARIO:**
 
-## 9. Lista de Bugs Encontrados
+- Eu como usuario
+- Quero deletar reserva
+- Para que seja possivel visualizar as informações
 
-| ID do Bug | Descrição do Bug                          | Classificação | Observações                                               |
-|-----------|------------------------------------------|---------------|----------------------------------------------------------|
-| BUG-001   | Problema de navegação na página de checkout | Grave         | A navegação não funciona corretamente em dispositivos móveis. |
-| BUG-002   | Falha na exibição de imagens no carrinho de compras | Moderado      | Imagens de alguns produtos não estão sendo exibidas corretamente no carrinho. |
-| BUG-003   | Mensagem de erro genérica para login com senha inválida | Leve          | A mensagem não informa se o problema é no nome de usuário ou na senha. |
-| BUG-004   | Tempo elevado ao aplicar múltiplos filtros simultâneos | Moderado      | O tempo de resposta excede 5 segundos quando muitos filtros são aplicados. |
-| BUG-005   | Botão "Logout" às vezes não responde em dispositivos móveis | Grave         | O botão exige múltiplos cliques para funcionar. |
 
----
+ **1.1 CRITERIOS DE ACEITACAO:**
 
-## 10. Sugestões de Melhorias
+ - Ter postman instalado
+ - Le a documentação do restful-booker.herokuapp.com/apido
+ 
+ 
+  ## CENARIO 01 - Reservas Nomes
+  
+| ID          | Descrição                                         | Passos para Reproduzir                                                                                                                    | Insira massa de dados                                              |
+|-------------|---------------------------------------------------|---------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|
+|CT-API-0008 |  deletar reservas                                  |1. Na tela  requisição POST<br>2. Dado que tenho os dados (Informacoes)<br>3. Quando insiro os dados <br>4.  E aciono ação "Send"         |            Dados usados da documentacao de API
+ 
+| Resultado Esperado                                  |Imagem 01                                                                                                |      Imagem 02          
+|-----------------------------------------------------|---------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|
+| 5. Então tenho a resposta da requisicao.            | <div align="center">  <img src="https://github.com/Catizane/catizane-pratica.github.io/blob/main/docs/resultados/api/CT-API-0008_DeleteReserva.png" width="102" height="80" alt="login"  />  </a></div>   -| Nao Aplica  
 
-1. **Interface do Usuário (UI):**
-   - **Contraste de cores:** Aumentar o contraste de cores dos botões para melhorar a acessibilidade e a visibilidade.
-   - **Redimensionamento de imagens:** Garantir que todas as imagens do carrinho sejam carregadas e ajustadas ao tamanho ideal.
-   - **Erros detalhados:** Exibir mensagens de erro mais informativas no login para ajudar os usuários a corrigirem os problemas rapidamente.
+ 
+##  Sugestões de Melhorias
 
-2. **Experiência do Usuário (UX):**
-   - **Feedback visual:** Adicionar feedback visual (ex.: loaders ou spinners) em ações como filtros e checkout.
-   - **Melhoria no fluxo de logout:** Resolver o problema de resposta do botão "Logout" em dispositivos móveis.
-   - **Filtros otimizados:** Melhorar o desempenho ao aplicar múltiplos filtros simultaneamente.
+ **Detalhe (API): Tempo de carregamento inferior a 2 segundo -ok **
+                                                                                                                                                                                
+---       
 
-3. **Performance:**
-   - **Tempo de resposta:** Garantir que todas as ações, como navegação e aplicação de filtros, tenham tempo de resposta inferior a 2 segundos.
-   - **Teste de carga:** Simular cenários com alta carga de usuários para garantir estabilidade durante picos de acesso.
 
-4. **Acessibilidade:**
-   - **Teclado:** Permitir navegação completa utilizando apenas o teclado (Tab/Enter).
-   - **Textos alternativos:** Adicionar textos alternativos (alt) em imagens para suporte a leitores de tela.
-   - **Responsividade:** Garantir que todos os elementos sejam funcionais e visíveis em diferentes tamanhos de tela.
 
-5. **Automação:**
-   - Sugerir a automação dos fluxos basicos: login, fluxo de compra e filtros,
-   -Objetivo:Aumentar a eficiência e a cobertura dos testes.
+
