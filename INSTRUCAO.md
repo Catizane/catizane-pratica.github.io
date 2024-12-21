@@ -1,9 +1,9 @@
-# INSTRUCAO A RESPEITO DA  Prático QA Testing BeTalent! 
+# INSTRUCAO A RESPEITO DA  Prático QA Testing ! 
 
 O PLANOS DE TESTE :
 
-1. **UI Testing**
-2. **API Testing**
+1. **UI Testing** Cypress
+2. **API Testing** Postman
 
 ENCONTRA-SE NO DOCUMENTO plano-mestre.md.
 
