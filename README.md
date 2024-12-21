@@ -1,45 +1,31 @@
-# INSTRUCAO A RESPEITO DA  Prático QA Testing BeTalent! 
 
-O PLANOS DE TESTE :
+## Acesso a INSTRUCAO A RESPEITO DA Prático QA 
+   O PLANOS DE TESTE :
+   1. **UI Testing** Cypress
+   2. **API Testing** Postman
 
-1. **UI Testing**
-2. **API Testing**
+ Para obter o acesso  basta copiar o endereco:
 
-ENCONTRA-SE NO DOCUMENTO plano-mestre.md.
+```
+https://github.com/Catizane/catizane-pratica.github.io/blob/main/INSTRUCAO.md
+```
 
----
+## Acesso ao PLANO MESTRE 
+   O PLANOS DE TESTE :
+   1. **UI Testing** Cypress
+   2. **API Testing** Postman
 
+ Para obter o acesso  basta copiar o endereco:
 
-## Automacao do  Plano de Testes - UI Testing (Sauce Demo)
+```
+https://github.com/Catizane/catizane-pratica.github.io/blob/main/plano-mestre.md
+```
 
-## 1. Objetivo
-Encontra-se na pasta : docs/resultados/ui/automacao-login
+## Acesso aos RESULTADOS
+   Os resultados estao em pastas
 
- Exemplo 01:
+ Para obter o acesso  basta copiar o endereco:
 
-|                                       |Imagem exemplo                                                                                                         |      Clique       
-|-----------------------------------------------------|---------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|
-|                                       | <div align="center">  <img src="https://github.com/Catizane/catizane-pratica.github.io/blob/main/docs/resultados//ui/automacao-login/AutoLogin_1.png" width="102" height="80" alt="login"  />  </a></div>   -| Nao Aplica  
-
-
-
-
----
-
-## Consideracoes
-- Foi necessário estudar como fazer a estrutura dentro do Documento em Markdown (.md) .
-- Pesquisar um pouco sobre novidades a respeito cypress,postman e reativar a conta github
-- Algumas horas para organizar
-- Foi interessante disponibilizar tempo para fazer e  conseguir concluir
-- Boa sorte! 
-
----
-
-
-
-
-
-
-
-
-
+```
+https://github.com/Catizane/catizane-pratica.github.io/tree/main/docs/resultados
+```
